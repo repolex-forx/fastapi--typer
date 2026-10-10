@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/fastapi/typer/commit/b15210b71a5b9b35be82a1ffdb172ef7b3a89d85",
       "git:hexsha": "b15210b71a5b9b35be82a1ffdb172ef7b3a89d85",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "0.27.3"
     },
     {
