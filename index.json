@@ -1,0 +1,11 @@
+{
+  "org": "fastapi",
+  "repo": "typer",
+  "versions": [
+    {
+      "commit": "b15210b71a5b9b35be82a1ffdb172ef7b3a89d85",
+      "tag": "0.27.3",
+      "parsed_at": "2026-10-10T23:07:52.908195+00:00"
+    }
+  ]
+}
