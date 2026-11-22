@@ -1322,6 +1322,65 @@
       ],
       "ast": [
         "aggregate/ast/eaec8fae8a8ab39a64a20f39190f13400b639a22/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/eaec8fae8a8ab39a64a20f39190f13400b639a22.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "click",
+          "ecosystem": "PYPI",
+          "version": "8.2.1",
+          "githubOrg": "pallets",
+          "githubRepo": "click",
+          "githubCommit": "fd183b2ced1cb5857784fe7fb22f4982f671f098",
+          "githubTag": "8.2.1",
+          "githubUrl": "https://github.com/pallets/click",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "shellingham",
+          "ecosystem": "PYPI",
+          "version": "1.3.0",
+          "githubOrg": "sarugaku",
+          "githubRepo": "shellingham",
+          "githubCommit": "ddeb48e742a9dd872b277e236e003cbbb82a7347",
+          "githubTag": "1.3.0",
+          "githubUrl": "https://github.com/sarugaku/shellingham",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "rich",
+          "ecosystem": "PYPI",
+          "version": "12.3.0",
+          "githubOrg": "Textualize",
+          "githubRepo": "rich",
+          "githubCommit": "edcb6f9e1a4674b0cd45a854c25c5ac6704b2ddb",
+          "githubTag": "v12.3.0",
+          "githubUrl": "https://github.com/Textualize/rich",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "annotated-doc",
+          "ecosystem": "PYPI",
+          "version": "0.0.2",
+          "githubOrg": "fastapi",
+          "githubRepo": "annotated-doc",
+          "githubCommit": "4cff021a7cc5fe3009a49ec655f2e3e920f73e0c",
+          "githubTag": "0.0.2",
+          "githubUrl": "https://github.com/fastapi/annotated-doc",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pydantic",
+          "ecosystem": "PYPI",
+          "version": "2.14.4",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic",
+          "githubCommit": "1642a816171707dd8c58da6fff8061a59348402c",
+          "githubTag": "v2.14.4",
+          "githubUrl": "https://github.com/pydantic/pydantic",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/pydantic/types.py"
+        }
       ]
     }
   ],

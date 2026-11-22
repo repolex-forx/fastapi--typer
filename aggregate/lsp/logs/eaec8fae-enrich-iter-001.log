@@ -1,0 +1,46 @@
+[2026-11-22T02:13:38Z] === ENRICH ITERATION 1 START | repo=fastapi/typer sha=eaec8fae ===
+[2026-11-22T02:13:38Z] [iter=1] PHASE START: enrich repo=fastapi/typer sha=eaec8fae runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/eaec8fae-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/eaec8fae8a8ab39a64a20f39190f13400b639a22.nq.gz
+[2026-11-22T02:13:41Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T02:13:48Z] [iter=1] AST store loaded triples=918674 load_secs=6 mem_mb=834 MB
+[2026-11-22T02:13:48Z] [iter=1] Step 2: Finding LSP targets mem_mb=834 MB
+[2026-11-22T02:13:49Z] [iter=1] LSP targets found call_sites=5092 imports=1580 extends=29 implements=0 secs=1
+[2026-11-22T02:13:49Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=834 MB
+[2026-11-22T02:13:55Z] [iter=1] Position index built positions=63006 nodes_with_types=82160 secs=6 mem_mb=834 MB
+[2026-11-22T02:13:55Z] [iter=1] Step 3: Starting LSP resolution mem_mb=834 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T02:13:55Z] [iter=1] Resolving target type target_type=call_site count=5092
+[2026-11-22T02:14:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.7 files_done=2 resolved=216 errors=0 current=docs_src/options_autocompletion/tutorial002_an_py310.py
+[2026-11-22T02:14:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.3 files_done=9 resolved=359 errors=0 current=docs_src/printing/tutorial004_py310.py
+[2026-11-22T02:16:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.4 files_done=15 resolved=723 errors=0 current=tests/test_type_conversion.py
+[2026-11-22T02:16:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.0 files_done=22 resolved=866 errors=0 current=tests/test_completion/test_completion_complete.py
+[2026-11-22T02:17:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.7 files_done=35 resolved=1143 errors=0 current=tests/test_tutorial/test_commands/test_help/test_tutorial008.py
+[2026-11-22T02:17:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.2 files_done=44 resolved=1303 errors=0 current=tests/test_rich_utils.py
+[2026-11-22T02:18:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.7 files_done=56 resolved=1428 errors=0 current=docs_src/subcommands/tutorial002_py310/main.py
+[2026-11-22T02:18:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.3 files_done=70 resolved=1709 errors=0 current=tests/test_tutorial/test_subcommands/test_tutorial001.py
+[2026-11-22T02:19:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.8 files_done=89 resolved=1890 errors=0 current=typer/completion.py
+[2026-11-22T02:20:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.4 files_done=97 resolved=2084 errors=0 current=docs_src/options_autocompletion/tutorial004_an_py310.py
+[2026-11-22T02:20:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.9 files_done=119 resolved=2244 errors=0 current=docs_src/multiple_values/arguments_with_multiple_values/tutorial001_py310.py
+[2026-11-22T02:21:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.4 files_done=139 resolved=2374 errors=0 current=docs_src/progressbar/tutorial003_py310.py
+[2026-11-22T02:21:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.9 files_done=156 resolved=2546 errors=0 current=docs_src/multiple_values/arguments_with_multiple_values/tutorial002_an_py310.py
+[2026-11-22T02:22:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.5 files_done=176 resolved=2728 errors=0 current=docs_src/commands/help/tutorial001_py310.py
+[2026-11-22T02:22:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.0 files_done=195 resolved=2890 errors=0 current=tests/assets/cli/multi_app_cli.py
+[2026-11-22T02:23:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.5 files_done=208 resolved=3021 errors=0 current=tests/test_tutorial/test_exceptions/test_tutorial004.py
+[2026-11-22T02:23:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.0 files_done=230 resolved=3177 errors=0 current=tests/test_tutorial/test_first_steps/test_tutorial002.py
+[2026-11-22T02:24:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.5 files_done=251 resolved=3302 errors=0 current=tests/assets/prog_name.py
+[2026-11-22T02:24:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.1 files_done=271 resolved=3422 errors=0 current=docs_src/commands/help/tutorial003_py310.py
+[2026-11-22T02:25:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.6 files_done=292 resolved=3567 errors=0 current=docs_src/multiple_values/multiple_options/tutorial001_py310.py
+[2026-11-22T02:25:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.1 files_done=313 resolved=3698 errors=0 current=tests/test_tutorial/test_options/test_required/test_tutorial001_tutorial002.py
+[2026-11-22T02:26:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.6 files_done=335 resolved=3824 errors=0 current=tests/test_tutorial/test_commands/test_index/test_tutorial005.py
+[2026-11-22T02:26:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.1 files_done=357 resolved=3951 errors=0 current=docs_src/parameter_types/file/tutorial004_an_py310.py
+[2026-11-22T02:27:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.6 files_done=382 resolved=4084 errors=0 current=docs_src/commands/context/tutorial004_py310.py
+[2026-11-22T02:27:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.2 files_done=406 resolved=4208 errors=0 current=tests/test_tutorial/test_printing/test_tutorial001.py
+[2026-11-22T02:28:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.7 files_done=431 resolved=4335 errors=0 current=docs_src/options/help/tutorial002_an_py310.py
+[2026-11-22T02:28:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.2 files_done=457 resolved=4450 errors=0 current=tests/test_cli/test_multi_app_cli.py
+[2026-11-22T02:29:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.7 files_done=482 resolved=4592 errors=0 current=docs/js/custom.js
+[2026-11-22T02:29:31Z] [iter=1] Target type resolved target_type=call_site resolved=4635 errors=0 secs=936 mem_mb=834 MB
+[2026-11-22T02:29:31Z] [iter=1] Resolving target type target_type=import_statement count=1580
+[2026-11-22T02:29:39Z] [iter=1] Target type resolved target_type=import_statement resolved=1401 errors=0 secs=8 mem_mb=834 MB
+[2026-11-22T02:29:39Z] [iter=1] Resolving target type target_type=extends_clause count=29
+[2026-11-22T02:29:40Z] [iter=1] Target type resolved target_type=extends_clause resolved=28 errors=0 secs=2 mem_mb=834 MB
+[2026-11-22T02:42:07Z] [iter=1] Step 5: Writing final enrichment file triples=83005
+[2026-11-22T02:42:08Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/eaec8fae8a8ab39a64a20f39190f13400b639a22.nq.gz size_kb=1756
+[2026-11-22T02:42:08Z] [iter=1] PHASE END: enrich elapsed_s=1709 elapsed_min=28.5 total_triples=83005
