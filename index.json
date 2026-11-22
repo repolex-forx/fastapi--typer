@@ -3,6 +3,11 @@
   "repo": "typer",
   "versions": [
     {
+      "commit": "eaec8fae8a8ab39a64a20f39190f13400b639a22",
+      "tag": "0.24.1",
+      "parsed_at": "2026-11-22T02:44:18.018162+00:00"
+    },
+    {
       "commit": "b15210b71a5b9b35be82a1ffdb172ef7b3a89d85",
       "tag": "0.27.3",
       "parsed_at": "2026-10-10T23:07:52.908195+00:00"
